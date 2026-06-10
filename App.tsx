@@ -9,7 +9,7 @@ function UserComponent() {
       .then(data => {
         setUser(data); 
       });
-  }, [user]); 
+  }, []); 
 
   return <div>{user?.name}</div>;
 }
